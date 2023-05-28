@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C19B40652A2335A8005BC0CF /* Veritessa_iOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B40642A2335A8005BC0CF /* Veritessa_iOS_AppApp.swift */; };
+		C19B40672A2335A8005BC0CF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B40662A2335A8005BC0CF /* Persistence.swift */; };
+		C19B406A2A2335A8005BC0CF /* Veritessa_iOS_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C19B40682A2335A8005BC0CF /* Veritessa_iOS_App.xcdatamodeld */; };
+		C19B406C2A2335A8005BC0CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B406B2A2335A8005BC0CF /* ContentView.swift */; };
+		C19B406E2A2335A9005BC0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19B406D2A2335A9005BC0CF /* Assets.xcassets */; };
+		C19B40722A2335A9005BC0CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C19B40712A2335A9005BC0CF /* Preview Assets.xcassets */; };
+		C19B407C2A2335A9005BC0CF /* Veritessa_iOS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B407B2A2335A9005BC0CF /* Veritessa_iOS_AppTests.swift */; };
+		C19B40862A2335A9005BC0CF /* Veritessa_iOS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B40852A2335A9005BC0CF /* Veritessa_iOS_AppUITests.swift */; };
+		C19B40882A2335A9005BC0CF /* Veritessa_iOS_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B40872A2335A9005BC0CF /* Veritessa_iOS_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C19B40782A2335A9005BC0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19B40592A2335A8005BC0CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19B40602A2335A8005BC0CF;
+			remoteInfo = "Veritessa iOS App";
+		};
+		C19B40822A2335A9005BC0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C19B40592A2335A8005BC0CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C19B40602A2335A8005BC0CF;
+			remoteInfo = "Veritessa iOS App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C19B40612A2335A8005BC0CF /* Veritessa iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veritessa iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19B40642A2335A8005BC0CF /* Veritessa_iOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veritessa_iOS_AppApp.swift; sourceTree = "<group>"; };
+		C19B40662A2335A8005BC0CF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C19B40692A2335A8005BC0CF /* Veritessa_iOS_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Veritessa_iOS_App.xcdatamodel; sourceTree = "<group>"; };
+		C19B406B2A2335A8005BC0CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C19B406D2A2335A9005BC0CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C19B406F2A2335A9005BC0CF /* Veritessa_iOS_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Veritessa_iOS_App.entitlements; sourceTree = "<group>"; };
+		C19B40712A2335A9005BC0CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C19B40772A2335A9005BC0CF /* Veritessa iOS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veritessa iOS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19B407B2A2335A9005BC0CF /* Veritessa_iOS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veritessa_iOS_AppTests.swift; sourceTree = "<group>"; };
+		C19B40812A2335A9005BC0CF /* Veritessa iOS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Veritessa iOS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19B40852A2335A9005BC0CF /* Veritessa_iOS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veritessa_iOS_AppUITests.swift; sourceTree = "<group>"; };
+		C19B40872A2335A9005BC0CF /* Veritessa_iOS_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veritessa_iOS_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C19B405E2A2335A8005BC0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19B40742A2335A9005BC0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19B407E2A2335A9005BC0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C19B40582A2335A8005BC0CF = {
+			isa = PBXGroup;
+			children = (
+				C19B40632A2335A8005BC0CF /* Veritessa iOS App */,
+				C19B407A2A2335A9005BC0CF /* Veritessa iOS AppTests */,
+				C19B40842A2335A9005BC0CF /* Veritessa iOS AppUITests */,
+				C19B40622A2335A8005BC0CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C19B40622A2335A8005BC0CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C19B40612A2335A8005BC0CF /* Veritessa iOS App.app */,
+				C19B40772A2335A9005BC0CF /* Veritessa iOS AppTests.xctest */,
+				C19B40812A2335A9005BC0CF /* Veritessa iOS AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19B40632A2335A8005BC0CF /* Veritessa iOS App */ = {
+			isa = PBXGroup;
+			children = (
+				C19B40642A2335A8005BC0CF /* Veritessa_iOS_AppApp.swift */,
+				C19B40662A2335A8005BC0CF /* Persistence.swift */,
+				C19B406B2A2335A8005BC0CF /* ContentView.swift */,
+				C19B406D2A2335A9005BC0CF /* Assets.xcassets */,
+				C19B406F2A2335A9005BC0CF /* Veritessa_iOS_App.entitlements */,
+				C19B40682A2335A8005BC0CF /* Veritessa_iOS_App.xcdatamodeld */,
+				C19B40702A2335A9005BC0CF /* Preview Content */,
+			);
+			path = "Veritessa iOS App";
+			sourceTree = "<group>";
+		};
+		C19B40702A2335A9005BC0CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C19B40712A2335A9005BC0CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C19B407A2A2335A9005BC0CF /* Veritessa iOS AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C19B407B2A2335A9005BC0CF /* Veritessa_iOS_AppTests.swift */,
+			);
+			path = "Veritessa iOS AppTests";
+			sourceTree = "<group>";
+		};
+		C19B40842A2335A9005BC0CF /* Veritessa iOS AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C19B40852A2335A9005BC0CF /* Veritessa_iOS_AppUITests.swift */,
+				C19B40872A2335A9005BC0CF /* Veritessa_iOS_AppUITestsLaunchTests.swift */,
+			);
+			path = "Veritessa iOS AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C19B40602A2335A8005BC0CF /* Veritessa iOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19B408B2A2335A9005BC0CF /* Build configuration list for PBXNativeTarget "Veritessa iOS App" */;
+			buildPhases = (
+				C19B405D2A2335A8005BC0CF /* Sources */,
+				C19B405E2A2335A8005BC0CF /* Frameworks */,
+				C19B405F2A2335A8005BC0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Veritessa iOS App";
+			productName = "Veritessa iOS App";
+			productReference = C19B40612A2335A8005BC0CF /* Veritessa iOS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C19B40762A2335A9005BC0CF /* Veritessa iOS AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19B408E2A2335A9005BC0CF /* Build configuration list for PBXNativeTarget "Veritessa iOS AppTests" */;
+			buildPhases = (
+				C19B40732A2335A9005BC0CF /* Sources */,
+				C19B40742A2335A9005BC0CF /* Frameworks */,
+				C19B40752A2335A9005BC0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19B40792A2335A9005BC0CF /* PBXTargetDependency */,
+			);
+			name = "Veritessa iOS AppTests";
+			productName = "Veritessa iOS AppTests";
+			productReference = C19B40772A2335A9005BC0CF /* Veritessa iOS AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C19B40802A2335A9005BC0CF /* Veritessa iOS AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C19B40912A2335A9005BC0CF /* Build configuration list for PBXNativeTarget "Veritessa iOS AppUITests" */;
+			buildPhases = (
+				C19B407D2A2335A9005BC0CF /* Sources */,
+				C19B407E2A2335A9005BC0CF /* Frameworks */,
+				C19B407F2A2335A9005BC0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C19B40832A2335A9005BC0CF /* PBXTargetDependency */,
+			);
+			name = "Veritessa iOS AppUITests";
+			productName = "Veritessa iOS AppUITests";
+			productReference = C19B40812A2335A9005BC0CF /* Veritessa iOS AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C19B40592A2335A8005BC0CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C19B40602A2335A8005BC0CF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C19B40762A2335A9005BC0CF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C19B40602A2335A8005BC0CF;
+					};
+					C19B40802A2335A9005BC0CF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C19B40602A2335A8005BC0CF;
+					};
+				};
+			};
+			buildConfigurationList = C19B405C2A2335A8005BC0CF /* Build configuration list for PBXProject "Veritessa iOS App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C19B40582A2335A8005BC0CF;
+			productRefGroup = C19B40622A2335A8005BC0CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C19B40602A2335A8005BC0CF /* Veritessa iOS App */,
+				C19B40762A2335A9005BC0CF /* Veritessa iOS AppTests */,
+				C19B40802A2335A9005BC0CF /* Veritessa iOS AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C19B405F2A2335A8005BC0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19B40722A2335A9005BC0CF /* Preview Assets.xcassets in Resources */,
+				C19B406E2A2335A9005BC0CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19B40752A2335A9005BC0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19B407F2A2335A9005BC0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C19B405D2A2335A8005BC0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19B406A2A2335A8005BC0CF /* Veritessa_iOS_App.xcdatamodeld in Sources */,
+				C19B40652A2335A8005BC0CF /* Veritessa_iOS_AppApp.swift in Sources */,
+				C19B406C2A2335A8005BC0CF /* ContentView.swift in Sources */,
+				C19B40672A2335A8005BC0CF /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19B40732A2335A9005BC0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19B407C2A2335A9005BC0CF /* Veritessa_iOS_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19B407D2A2335A9005BC0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19B40862A2335A9005BC0CF /* Veritessa_iOS_AppUITests.swift in Sources */,
+				C19B40882A2335A9005BC0CF /* Veritessa_iOS_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C19B40792A2335A9005BC0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19B40602A2335A8005BC0CF /* Veritessa iOS App */;
+			targetProxy = C19B40782A2335A9005BC0CF /* PBXContainerItemProxy */;
+		};
+		C19B40832A2335A9005BC0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C19B40602A2335A8005BC0CF /* Veritessa iOS App */;
+			targetProxy = C19B40822A2335A9005BC0CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C19B40892A2335A9005BC0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C19B408A2A2335A9005BC0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C19B408C2A2335A9005BC0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Veritessa iOS App/Veritessa_iOS_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Veritessa iOS App/Preview Content\"";
+				DEVELOPMENT_TEAM = P57VLZ4V94;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dWalt-Apps-LLC.Veritessa-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C19B408D2A2335A9005BC0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Veritessa iOS App/Veritessa_iOS_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Veritessa iOS App/Preview Content\"";
+				DEVELOPMENT_TEAM = P57VLZ4V94;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dWalt-Apps-LLC.Veritessa-iOS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C19B408F2A2335A9005BC0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P57VLZ4V94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dWalt-Apps-LLC.Veritessa-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veritessa iOS App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veritessa iOS App";
+			};
+			name = Debug;
+		};
+		C19B40902A2335A9005BC0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P57VLZ4V94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dWalt-Apps-LLC.Veritessa-iOS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veritessa iOS App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veritessa iOS App";
+			};
+			name = Release;
+		};
+		C19B40922A2335A9005BC0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P57VLZ4V94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dWalt-Apps-LLC.Veritessa-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veritessa iOS App";
+			};
+			name = Debug;
+		};
+		C19B40932A2335A9005BC0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P57VLZ4V94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dWalt-Apps-LLC.Veritessa-iOS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Veritessa iOS App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C19B405C2A2335A8005BC0CF /* Build configuration list for PBXProject "Veritessa iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19B40892A2335A9005BC0CF /* Debug */,
+				C19B408A2A2335A9005BC0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19B408B2A2335A9005BC0CF /* Build configuration list for PBXNativeTarget "Veritessa iOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19B408C2A2335A9005BC0CF /* Debug */,
+				C19B408D2A2335A9005BC0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19B408E2A2335A9005BC0CF /* Build configuration list for PBXNativeTarget "Veritessa iOS AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19B408F2A2335A9005BC0CF /* Debug */,
+				C19B40902A2335A9005BC0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C19B40912A2335A9005BC0CF /* Build configuration list for PBXNativeTarget "Veritessa iOS AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C19B40922A2335A9005BC0CF /* Debug */,
+				C19B40932A2335A9005BC0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C19B40682A2335A8005BC0CF /* Veritessa_iOS_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C19B40692A2335A8005BC0CF /* Veritessa_iOS_App.xcdatamodel */,
+			);
+			currentVersion = C19B40692A2335A8005BC0CF /* Veritessa_iOS_App.xcdatamodel */;
+			path = Veritessa_iOS_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C19B40592A2335A8005BC0CF /* Project object */;
+}
