@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Veritessa iOS App in Veritessa iOS App, no dependencies
+Veritessa iOS AppTests in Veritessa iOS App, depends on:
+Veritessa iOS App in Veritessa iOS App (explicit)
+Veritessa iOS AppUITests in Veritessa iOS App, depends on:
+Veritessa iOS App in Veritessa iOS App (explicit)

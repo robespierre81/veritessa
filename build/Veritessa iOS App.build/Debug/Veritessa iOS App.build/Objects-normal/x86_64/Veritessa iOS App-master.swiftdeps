@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "98a0cab0b85ed5f9d480105ed3c07ec8c17c1ddb69070a3edace2ab8f3b04eb3"
+build_start_time: [1686900189, 572797000]
+build_end_time: [1686900200, 684141000]
+inputs:
+  "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/Veritessa iOS App/ContentView.swift": !private [1685430858, 0]
+  "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/Veritessa iOS App/Login2FAView.swift": !private [1685430468, 0]
+  "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/Veritessa iOS App/LoginDataView.swift": !private [1685429390, 0]
+  "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/Veritessa iOS App/Persistence.swift": [1685257768, 0]
+  "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/Veritessa iOS App/Veritessa_iOS_AppApp.swift": [1685257768, 0]
+  ? "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/build/Veritessa iOS App.build/Debug/Veritessa iOS App.build/DerivedSources/CoreDataGenerated/Veritessa_iOS_App/Item+CoreDataClass.swift"
+  : [1686900186, 195930961]
+  ? "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/build/Veritessa iOS App.build/Debug/Veritessa iOS App.build/DerivedSources/CoreDataGenerated/Veritessa_iOS_App/Item+CoreDataProperties.swift"
+  : [1686900186, 196975334]
+  ? "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/build/Veritessa iOS App.build/Debug/Veritessa iOS App.build/DerivedSources/CoreDataGenerated/Veritessa_iOS_App/Veritessa_iOS_App+CoreDataModel.swift"
+  : [1686900186, 193697611]
