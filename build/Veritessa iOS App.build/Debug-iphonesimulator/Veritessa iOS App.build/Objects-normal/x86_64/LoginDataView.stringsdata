@@ -1,0 +1,40 @@
+{
+  "source": "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/Veritessa iOS App/LoginDataView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Welcome Back!"
+      },
+      {
+        "comment": "",
+        "key": "Email Address"
+      },
+      {
+        "comment": "",
+        "key": "Password"
+      },
+      {
+        "comment": "",
+        "key": "Forgot Password View Placeholder"
+      },
+      {
+        "comment": "",
+        "key": ""
+      },
+      {
+        "comment": "",
+        "key": "Next"
+      },
+      {
+        "comment": "",
+        "key": "Forgot Password"
+      },
+      {
+        "comment": "",
+        "key": "Invite a friend"
+      }
+    ]
+  },
+  "version": 1
+}

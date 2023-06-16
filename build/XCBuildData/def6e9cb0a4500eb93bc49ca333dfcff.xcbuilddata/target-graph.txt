@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Veritessa iOS App in Veritessa iOS App, no dependencies

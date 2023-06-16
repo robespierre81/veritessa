@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
 options: "98a0cab0b85ed5f9d480105ed3c07ec8c17c1ddb69070a3edace2ab8f3b04eb3"
-build_start_time: [1686901199, 71310000]
-build_end_time: [1686901201, 384730000]
+build_start_time: [1686902919, 995249000]
+build_end_time: [1686902920, 75434000]
 inputs:
   "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/Veritessa iOS App/ContentView.swift": !private [1685430858, 0]
   "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/Veritessa iOS App/Login2FAView.swift": !private [1685430468, 0]

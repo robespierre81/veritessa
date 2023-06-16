@@ -1,0 +1,36 @@
+{
+  "source": "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/Veritessa iOS App/Login2FAView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Two-Factor Authentication"
+      },
+      {
+        "comment": "",
+        "key": "Enter Code"
+      },
+      {
+        "comment": "",
+        "key": "Open your Google Authenticator App. This step provides extra security for your account."
+      },
+      {
+        "comment": "",
+        "key": ""
+      },
+      {
+        "comment": "",
+        "key": "Login"
+      },
+      {
+        "comment": "",
+        "key": "By clicking on Login you agree to Veritessa’s Terms & Conditions."
+      },
+      {
+        "comment": "",
+        "key": "Invite a friend"
+      }
+    ]
+  },
+  "version": 1
+}

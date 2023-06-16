@@ -1,0 +1,24 @@
+{
+  "source": "/Users/bodi/Desktop/WalterOliver/Veritessa iOS App/Veritessa iOS App/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Sign up as Individual"
+      },
+      {
+        "comment": "",
+        "key": "Sign up as Company"
+      },
+      {
+        "comment": "",
+        "key": "Sign in"
+      },
+      {
+        "comment": "",
+        "key": "Login"
+      }
+    ]
+  },
+  "version": 1
+}
