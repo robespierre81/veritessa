@@ -1,7 +1,7 @@
 //  ContentView.swift
 //  Veritessa iOS App
 //
-//  Created by Walter Kurz on 28.05.23.
+//  Created by Walter Kurz on 28.05.23 and many others
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  Veritessa_iOS_AppApp.swift
 //  Veritessa iOS App
 //
-//  Created by Walter Kurz on 28.05.23.
+//  Created by whateva on 28.05.23.
 //
 
 import SwiftUI
