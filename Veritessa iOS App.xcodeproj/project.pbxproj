@@ -10,7 +10,6 @@
 		C12F93C32A2490BF0075D0A5 /* OpenSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C12F93C22A2490BF0075D0A5 /* OpenSans-VariableFont_wdth,wght.ttf */; };
 		C12F93C42A2490BF0075D0A5 /* OpenSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C12F93C22A2490BF0075D0A5 /* OpenSans-VariableFont_wdth,wght.ttf */; };
 		C12F93C52A2490BF0075D0A5 /* OpenSans-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C12F93C22A2490BF0075D0A5 /* OpenSans-VariableFont_wdth,wght.ttf */; };
-		C131A33D2A3C696300259BD7 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C131A33C2A3C696300259BD7 /* test.swift */; };
 		C15D8AF52A25C4B1009FCD19 /* LoginDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D8AF42A25C4B1009FCD19 /* LoginDataView.swift */; };
 		C15D8AF72A25D291009FCD19 /* Login2FAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D8AF62A25D291009FCD19 /* Login2FAView.swift */; };
 		C19B40652A2335A8005BC0CF /* Veritessa_iOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B40642A2335A8005BC0CF /* Veritessa_iOS_AppApp.swift */; };
@@ -43,7 +42,6 @@
 
 /* Begin PBXFileReference section */
 		C12F93C22A2490BF0075D0A5 /* OpenSans-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
-		C131A33C2A3C696300259BD7 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		C15D8AF42A25C4B1009FCD19 /* LoginDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataView.swift; sourceTree = "<group>"; };
 		C15D8AF62A25D291009FCD19 /* Login2FAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login2FAView.swift; sourceTree = "<group>"; };
 		C19B40612A2335A8005BC0CF /* Veritessa iOS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Veritessa iOS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,7 +121,6 @@
 				C19B406B2A2335A8005BC0CF /* ContentView.swift */,
 				C15D8AF42A25C4B1009FCD19 /* LoginDataView.swift */,
 				C15D8AF62A25D291009FCD19 /* Login2FAView.swift */,
-				C131A33C2A3C696300259BD7 /* test.swift */,
 				C19B406D2A2335A9005BC0CF /* Assets.xcassets */,
 				C19B406F2A2335A9005BC0CF /* Veritessa_iOS_App.entitlements */,
 				C19B40682A2335A8005BC0CF /* Veritessa_iOS_App.xcdatamodeld */,
@@ -296,7 +293,6 @@
 				C19B40652A2335A8005BC0CF /* Veritessa_iOS_AppApp.swift in Sources */,
 				C19B406C2A2335A8005BC0CF /* ContentView.swift in Sources */,
 				C19B40672A2335A8005BC0CF /* Persistence.swift in Sources */,
-				C131A33D2A3C696300259BD7 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
